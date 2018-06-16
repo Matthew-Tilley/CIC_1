@@ -12,7 +12,16 @@
     <body>
         
         <div id = "app">
+            
             {{message}}
+            
+            <span v-if = "seen">Now you see me.</span>
+            <span v-if = "NOTseen">Now you see me NOT.</span>
+            <span v-if = "Blurp">BLAH BLAH BLAH.</span>
+            
+            <div class = "box_1"></div>
+
+
         </div>
     
         <script src = "tinker_1.js"></script>

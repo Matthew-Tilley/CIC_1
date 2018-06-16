@@ -2,7 +2,16 @@ var app = new Vue({
     
     el: "#app",
     data: {
-        message: "Hello Vue!"
+    
+        message:"",
+        seen: true,
+        NOTseen: true,
+        Blurp: true
+        
+        
+    
     }
     
 });
+
+app.message = "KLAJSKLJASDKLJASDJ";
